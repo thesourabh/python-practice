@@ -1,0 +1,51 @@
+
+*{margin: 0;padding: 0;}
+html,body{
+height:100%;}
+body {
+font-family: Calibri;
+margin-left: 50px;
+}
+header{
+padding: 20px;
+width: 600px;
+font-size: 30px;
+margin: 0 auto;
+}
+.subtitle{
+font-size: 12px;
+}
+.headings{
+font-size: 24px;
+padding: 10px 0;
+}
+.year{width: 80px;}
+.film-title{width: 200px;}
+.character{width: 200px;}
+.film-title,.year,.character{padding: 10px 10px;float:left;}
+.role:nth-child(2n) {  
+
+}  
+.role {min-height: 60px;width: 640px;}
+.film-hov{background-color: #eee;}
+#mov-info{
+background-color: #eee;
+position: fixed;
+padding: 10px;
+width: 500px;
+top: 100px;
+right: 50px;
+}
+.posterimg{
+width: 200px;
+}
+.mov-title{
+font-size: 24px;
+}
+.rinfo{
+padding: 10px;
+}
+.fleft{float: left;}
+.fright{float: right;}
+.clear{clear: both;}
+.nodisplay{display: none;}
