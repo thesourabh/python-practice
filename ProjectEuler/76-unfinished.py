@@ -24,7 +24,7 @@ def calc(num,start,pre,lis):
   start += 1
  return count
 
-num = 100
+num = 30
 start = 1
 count = calc(num,start,"",set([]))
 
